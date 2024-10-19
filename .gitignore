@@ -1,0 +1,30 @@
+# Dependências do Node.js
+node_modules/
+package-lock.json
+
+# Diretórios de uploads e painéis (caso sejam dinâmicos)
+uploads/
+painel/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Cache do Composer e PHP
+vendor/
+composer.lock
+
+# Arquivos temporários do PHP
+*.php~
+
+# Excluir o diretório de build (se houver)
+build/
+dist/
+
+# Excluir arquivos de configuração locais
+.env
